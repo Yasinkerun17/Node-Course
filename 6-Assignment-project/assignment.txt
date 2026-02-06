@@ -1,0 +1,48 @@
+Health
+ 
+GET /health
+Returns server status and uptime.
+ 
+Users
+ 
+GET /users
+List all users.
+ 
+GET /users/:id
+Get a single user by ID.
+ 
+POST /users
+Create a new user.
+ 
+PUT /users/:id
+Update an existing user.
+ 
+DELETE /users/:id
+Delete a user.
+ 
+Products
+ 
+GET /products
+List products. Supports filters and pagination.
+ 
+Query params:
+minPrice, maxPrice, category, page, limit
+
+Orders
+ 
+POST /orders
+Create a new order.
+ 
+GET /orders
+List all orders.
+ 
+GET /orders/:id
+Get order by ID.
+ 
+Middleware
+ 
+Logger Middleware
+Logs every request.
+ 
+Error Handler
+Returns formatted error responses.
